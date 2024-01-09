@@ -1,0 +1,262 @@
+.services_container {
+  padding: 0 3rem;
+  padding-bottom: 30px;
+  background-color: #fbf1ea;
+  font-family: 'Jost' !important;
+
+  min-height: 200px;
+  // display: flex;
+  // flex: 1;
+  // text-align: center;
+}
+
+.services_header {
+  height: 100px;
+  text-align: center;
+
+  h3 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0px;
+  }
+}
+
+.services_menu {
+  display: flex;
+}
+
+.services_list {
+  flex: 1;
+}
+
+.service {
+  display: flex;
+  margin: 30px 0px;
+
+  .service_image {
+    height: 80px;
+    width: 80px;
+    // margin-inline-end: 30px;
+    // margin-inline-start: 0;
+    margin: 0 10px;
+
+    img {
+      border-radius: 50%;
+      background-clip: border-box;
+    }
+  }
+
+  .service_detail {
+    display: block;
+    width: 100%;
+    margin-right: 50px;
+
+    .service_title {
+      display: flex;
+      width: 100%;
+
+      .price {
+
+      }
+
+      .dots {
+        -webkit-box-flex: 1;
+        flex: 1;
+        border-top: 2px dotted rgba(0, 0, 0, 0.2);
+        margin: 25px 15px 15px;
+        top: 0;
+      }
+
+      h6 {
+        display: block;
+        margin: 10px 0px 0px 0px;
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        span {
+          font-size: 16px;
+          vertical-align: super;
+        }
+      }
+    }
+
+    .service_desc {
+
+      p {
+        margin: 0;
+      }
+    }
+
+
+  }
+}
+
+.right_image {
+  flex: 1;
+}
+
+@media (min-width: 0px) and (max-width: 400px)  {
+  .services_container {
+    padding: 10px 5px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .services_header {
+    height: 50px;
+  
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .service {
+    .service_image {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .service_detail{
+      margin-right: 0px;
+
+      .service_title {
+        .price {
+          font-size: 18px;
+        }
+  
+        .dots {
+          -webkit-box-flex: 1;
+          flex: 1;
+          border-top: 2px dotted rgba(0, 0, 0, 0.2);
+          margin: 20px 5px 5px;
+          top: 0;
+        }
+  
+        h6 {
+          margin: 10px 0px 0px 0px;
+          font-size: 18px;
+  
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  
+  .right_image{
+    flex: 0;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 768px){
+  .services_container {
+    padding: 10px 5px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .services_header {
+    height: 50px;
+  
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .service {
+    .service_image {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .service_detail{
+      margin-right: 0px;
+
+      .service_title {
+        .price {
+          font-size: 18px;
+        }
+  
+        .dots {
+          -webkit-box-flex: 1;
+          flex: 1;
+          border-top: 2px dotted rgba(0, 0, 0, 0.2);
+          margin: 20px 15px 15px;
+          top: 0;
+        }
+  
+        h6 {
+          margin: 10px 0px 0px 0px;
+          font-size: 18px;
+  
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  
+  .right_image{
+    flex: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+  .services_container {
+    padding: 10px 5px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+
+  .services_header {
+    height: 50px;
+  
+    h3 {
+      font-size: 30px;
+    }
+  }
+
+  .service {
+    .service_image {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .service_detail{
+      margin-right: 0px;
+
+      .service_title {
+        .price {
+          font-size: 18px;
+        }
+  
+        .dots {
+          -webkit-box-flex: 1;
+          flex: 1;
+          border-top: 2px dotted rgba(0, 0, 0, 0.2);
+          margin: 20px 15px 15px;
+          top: 0;
+        }
+  
+        h6 {
+          margin: 10px 0px 0px 0px;
+          font-size: 18px;
+  
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  
+  .right_image{
+    flex: 0;
+  }
+}

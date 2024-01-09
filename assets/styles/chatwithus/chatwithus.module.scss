@@ -1,0 +1,85 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 70px 0 0 0px;
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .parent{
+      background-color: rgb(216, 215, 215);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 50%;
+      margin: auto;
+    //   padding-bottom: 10px;
+  }
+
+  .textLeft{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    // margin-left: 10px;
+    
+  }
+
+  .textRight{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    // margin-right: 30px;
+    
+  }
+
+  .iconMe{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(129, 129, 233);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .iconAdmin{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(170, 245, 170);
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  .contentMe{
+    // border-radius: 100%;
+    background-color: rgb(129, 129, 233);
+    display: inline-block;
+  }
+
+  .contentAdmin{
+    // border-radius: 100%;
+    background-color: rgb(170, 245, 170);
+    display: inline-block;
+  }
+
+  .areaTxt{
+    width: 100%;
+    background-color: lemonchiffon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .userInputTxt{
+      width: 90%;
+  }
+
+  .btnAsk{
+      width: 10%;
+  }

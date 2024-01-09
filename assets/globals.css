@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/Cormorant_Infant/CormorantInfant-Light.ttf');
+  src: url('../assets/fonts/Cormorant_Infant/CormorantInfant-Medium.ttf');
+  font-weight: 600;
+  font-style: normal;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      color-scheme: dark;
+    }
+    body {
+      color: black;
+    }
+  }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: 'Cormorant Infant', serif;
+    font-size: 19px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Cormorant Infant', serif;
+}
+
+input{
+  font-size: 17px;
+}
+
+select{
+  font-size: 17px;
+}
+option{
+  font-size: 17px!important;
+}
+a{
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+}
+
+p{
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input{
+  font-family: 'Cormorant Infant'!important;
+    font-weight: 600;
+}
+
+select,option{
+  font-family: 'Cormorant Infant'!important;
+    font-weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
